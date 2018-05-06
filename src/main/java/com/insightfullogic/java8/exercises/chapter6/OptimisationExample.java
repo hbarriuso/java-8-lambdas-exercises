@@ -57,7 +57,9 @@ public class OptimisationExample {
 
     @GenerateMicroBenchmark
     public int fastSumOfSquares() {
-        return Exercises.replaceThisWithSolution();
+        return linkedListOfNumbers.parallelStream()
+                .mapToInt(x -> x * x)
+                .sum();
     }
 
 }
