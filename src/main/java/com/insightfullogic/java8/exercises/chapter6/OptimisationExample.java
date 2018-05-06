@@ -1,12 +1,10 @@
 package com.insightfullogic.java8.exercises.chapter6;
 
-import com.insightfullogic.java8.exercises.Exercises;
 import org.openjdk.jmh.Main;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.RunnerException;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.IntStream;
